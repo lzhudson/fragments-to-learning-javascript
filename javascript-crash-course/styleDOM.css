@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header h1 {
+  background-color: darkcyan;
+  text-align: center;
+  color: #FFF;
+}
+.container {
+  margin: 0 auto;
+  width: 350px;
+  margin-top: 1rem;
+  background-color: gray;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.container h2 {
+  color: ghostwhite;
+}
+.container form {
+  margin-top: 0.75rem;
+}
+.container form .form-group {
+  margin-top: 0.5rem;
+}
+.container form .form-group label {
+  display: block;
+  color: #FFF;
+}
+.container form .form-group input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+}
+.container form input[type="Submit"]{
+  margin-top: 1rem;
+  background-color: lightcoral;
+  color: #FFF;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+}
+ul {
+  margin-top: 1rem;
+}
+ul li.item {
+  list-style: none;
+  background-color: lightcyan;
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+}
+.bg-dark {
+  background: #333;
+}
+.error {
+  background-color: crimson;
+  color: #FFF;
+  padding: 0.5rem;
+}
